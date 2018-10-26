@@ -11,7 +11,7 @@ namespace CalculationsTest
         [Fact]
         public void SaltedSummTest()
         {
-            Assert.True(_calculator.SaltedSumm(1, 1) == 13);
+            Assert.True(_calculator.SaltedSumm(1, 1) == 14);
         }
     }
 }
