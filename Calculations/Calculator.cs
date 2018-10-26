@@ -6,6 +6,7 @@ namespace Calculations
         {
             var salt = 10;
             salt++;
+            salt += 2;
             return first + second + salt;
         }
     }
