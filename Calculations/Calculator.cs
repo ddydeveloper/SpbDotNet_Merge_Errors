@@ -8,6 +8,7 @@ namespace Calculations
             salt++;
             salt = salt + 1;
             salt++;
+
             return first + second + salt;
         }
     }
