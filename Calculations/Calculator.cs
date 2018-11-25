@@ -4,8 +4,12 @@ namespace Calculations
     {
         public static int SaltedSum(int first, int second)
         {
-            var salt = 10;       
+            var salt = 10;
+            salt += 4;
             salt++;
+            salt++;
+
+            salt += 2;
             
             return first + second + salt;
         }
