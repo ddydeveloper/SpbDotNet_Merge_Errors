@@ -9,7 +9,7 @@ namespace CalculationsTest
         [Fact]
         public void SaltedSumTest()
         {
-            Assert.True(Calculator.SaltedSum(1, 1) == 13);
+            Assert.True(Calculator.SaltedSum(1, 1) == 18);
         }
     }
 }
